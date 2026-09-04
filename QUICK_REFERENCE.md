@@ -18,3 +18,6 @@ Every canon episode must make meaningful progress/state change. Twist is optiona
 `/new /resume /status /health /forge /blueprint /episode /write /audit /simulate /mutate /branch /rescue /validate /build /certify`
 
 Natural language remains primary.
+
+## Detailed rules
+For canon-changing or high-impact work: after `runtime/routing.md`, load matching packs via `runtime/reference-routing.md`.

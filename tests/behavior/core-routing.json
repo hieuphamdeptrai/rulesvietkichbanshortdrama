@@ -1,1 +1,94 @@
-[{"id":"BT-001","input":"Viết tập 12","state":"EPISODE_LOCK","expected_required_modules":["02-episode-pacing","04-character-relationship","09-genre-format-style","10-continuity-canon"],"forbidden_default":["07-premise-blueprint"]},{"id":"BT-002","input":"Thử ba ending","state":"STORY_BLUEPRINT","expected_required_modules":["14-branching-rescue","08-quality-execution"],"must_preserve_main":true},{"id":"BT-003","input":"Arc này càng sửa càng tệ","state":"SCREENPLAY","expected_required_modules":["14-branching-rescue","13-lint-planning-observability"],"must_diagnose_before_core_unlock":true},{"id":"BT-004","input":"Tôi có một ý tưởng một câu","state":"INPUT","expected_required_modules":["15-onboarding-certification","07-premise-blueprint"],"must_not_require_long_form":true}]
+[
+  {
+    "id": "BT-001",
+    "input": "Viết tập 12",
+    "state": "EPISODE_LOCK",
+    "expected_required_modules": ["02-episode-pacing","04-character-relationship","09-genre-format-style","10-continuity-canon"],
+    "forbidden_default": ["07-premise-blueprint"],
+    "detail_escalation": "conditional"
+  },
+  {
+    "id": "BT-002",
+    "input": "Thử ba ending",
+    "state": "STORY_BLUEPRINT",
+    "expected_required_modules": ["14-branching-rescue","08-quality-execution"],
+    "must_preserve_main": true,
+    "detail_escalation": "mandatory"
+  },
+  {
+    "id": "BT-003",
+    "input": "Arc này càng sửa càng tệ",
+    "state": "SCREENPLAY",
+    "expected_required_modules": ["14-branching-rescue","13-lint-planning-observability"],
+    "must_diagnose_before_core_unlock": true,
+    "detail_escalation": "mandatory"
+  },
+  {
+    "id": "BT-004",
+    "input": "Tôi có một ý tưởng một câu",
+    "state": "INPUT",
+    "expected_required_modules": ["15-onboarding-certification","07-premise-blueprint"],
+    "must_not_require_long_form": true,
+    "detail_escalation": "conditional"
+  },
+  {
+    "id": "BT-005",
+    "input": "Đổi hung thủ đã lock sang người khác",
+    "state": "STORY_BLUEPRINT",
+    "expected_required_modules": ["14-branching-rescue","10-continuity-canon","11-memory-context"],
+    "must_not_silent_overwrite": true,
+    "detail_escalation": "mandatory"
+  },
+  {
+    "id": "BT-006",
+    "input": "Mô phỏng khán giả sau tập 10",
+    "state": "AUDIT",
+    "expected_required_modules": ["08-quality-execution","01-curiosity-core"],
+    "must_enforce_audience_firewall": true,
+    "detail_escalation": "mandatory"
+  },
+  {
+    "id": "BT-007",
+    "input": "Import 12 tập cũ và tiếp tục",
+    "state": "INPUT",
+    "expected_required_modules": ["15-onboarding-certification","11-memory-context","10-continuity-canon"],
+    "must_preserve_existing_project": true,
+    "detail_escalation": "mandatory"
+  },
+  {
+    "id": "BT-008",
+    "input": "Project đang yếu ở đâu?",
+    "state": "STORY_BLUEPRINT",
+    "expected_required_modules": ["13-lint-planning-observability","11-memory-context"],
+    "detail_escalation": "mandatory"
+  },
+  {
+    "id": "BT-009",
+    "input": "Kiểm tra clue này có payoff chưa",
+    "state": "AUDIT",
+    "expected_required_modules": ["05-mystery-clue","06-escalation-payoff"],
+    "detail_escalation": "mandatory"
+  },
+  {
+    "id": "BT-010",
+    "input": "Polish thoại nhưng giữ đúng giọng nhân vật",
+    "state": "SCREENPLAY",
+    "expected_required_modules": ["04-character-relationship","09-genre-format-style"],
+    "detail_escalation": "conditional"
+  },
+  {
+    "id": "BT-011",
+    "input": "Build Episode Card từ source hiện tại",
+    "state": "EPISODE_GRID",
+    "expected_required_modules": ["12-schema-compiler","11-memory-context","02-episode-pacing"],
+    "must_reject_stale_source": true,
+    "detail_escalation": "mandatory"
+  },
+  {
+    "id": "BT-012",
+    "input": "Certify production readiness",
+    "state": "AUDIT",
+    "expected_required_modules": ["15-onboarding-certification","13-lint-planning-observability","10-continuity-canon"],
+    "detail_escalation": "mandatory"
+  }
+]

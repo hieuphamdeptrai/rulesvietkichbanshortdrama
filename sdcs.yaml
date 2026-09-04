@@ -1,6 +1,6 @@
 name: SDCS Story OS
 slug: rulesvietkichbanshortdrama
-release: 1.0.0
+release: 1.0.1
 design_history: v1.0-v4.4
 core_status: feature-frozen
 schema_version: 1.0.0
@@ -9,25 +9,134 @@ entrypoints:
   system: SYSTEM.md
   human: README.md
 modules:
-- {id: 01-curiosity-core, path: modules/01-curiosity-core.md, status: stable}
-- {id: 02-episode-pacing, path: modules/02-episode-pacing.md, status: stable}
-- {id: 03-twist-hook-cliff, path: modules/03-twist-hook-cliff.md, status: stable}
-- {id: 04-character-relationship, path: modules/04-character-relationship.md, status: stable}
-- {id: 05-mystery-clue, path: modules/05-mystery-clue.md, status: stable}
-- {id: 06-escalation-payoff, path: modules/06-escalation-payoff.md, status: stable}
-- {id: 07-premise-blueprint, path: modules/07-premise-blueprint.md, status: stable}
-- {id: 08-quality-execution, path: modules/08-quality-execution.md, status: stable}
-- {id: 09-genre-format-style, path: modules/09-genre-format-style.md, status: stable}
-- {id: 10-continuity-canon, path: modules/10-continuity-canon.md, status: stable}
-- {id: 11-memory-context, path: modules/11-memory-context.md, status: stable}
-- {id: 12-schema-compiler, path: modules/12-schema-compiler.md, status: stable}
-- {id: 13-lint-planning-observability, path: modules/13-lint-planning-observability.md, status: stable}
-- {id: 14-branching-rescue, path: modules/14-branching-rescue.md, status: stable}
-- {id: 15-onboarding-certification, path: modules/15-onboarding-certification.md, status: stable}
+- id: 01-curiosity-core
+  path: modules/01-curiosity-core.md
+  title: Curiosity Core, Architecture, Patterns & Composition
+  origins:
+  - v1.0
+  - v1.1
+  - v2.4
+  - v2.5
+  status: stable
+- id: 02-episode-pacing
+  path: modules/02-episode-pacing.md
+  title: Episode, Pacing & Retention Engine
+  origins:
+  - v1.2
+  - v1.9
+  status: stable
+- id: 03-twist-hook-cliff
+  path: modules/03-twist-hook-cliff.md
+  title: Twist, Hook & Cliffhanger Engine
+  origins:
+  - v1.3
+  - v1.4
+  status: stable
+- id: 04-character-relationship
+  path: modules/04-character-relationship.md
+  title: Character, Secret, Suspicion & Relationship Engine
+  origins:
+  - v1.5
+  - v2.9
+  status: stable
+- id: 05-mystery-clue
+  path: modules/05-mystery-clue.md
+  title: Mystery, Clue & Information Architecture
+  origins:
+  - v1.6
+  status: stable
+- id: 06-escalation-payoff
+  path: modules/06-escalation-payoff.md
+  title: Escalation, Conflict, Payoff & Satisfaction
+  origins:
+  - v1.7
+  - v1.8
+  status: stable
+- id: 07-premise-blueprint
+  path: modules/07-premise-blueprint.md
+  title: Premise Forge & Series Blueprint
+  origins:
+  - v2.0
+  - v2.8
+  status: stable
+- id: 08-quality-execution
+  path: modules/08-quality-execution.md
+  title: AI Execution, Red-Team, Metrics, Simulation & Mutation
+  origins:
+  - v2.1
+  - v2.2
+  - v2.3
+  - v2.6
+  - v2.7
+  status: stable
+- id: 09-genre-format-style
+  path: modules/09-genre-format-style.md
+  title: Genre, Format, Style & Creative Identity
+  origins:
+  - v3.1
+  - v4.0
+  status: stable
+- id: 10-continuity-canon
+  path: modules/10-continuity-canon.md
+  title: Continuity & Canon Integrity
+  origins:
+  - v3.2
+  status: stable
+- id: 11-memory-context
+  path: modules/11-memory-context.md
+  title: Story Memory, Context Retrieval & Compression
+  origins:
+  - v3.3
+  status: stable
+- id: 12-schema-compiler
+  path: modules/12-schema-compiler.md
+  title: Machine-readable Story Model & Artifact Compiler
+  origins:
+  - v3.4
+  - v3.6
+  status: stable
+- id: 13-lint-planning-observability
+  path: modules/13-lint-planning-observability.md
+  title: Linter, Dependency Scheduler & Observability
+  origins:
+  - v3.5
+  - v3.8
+  - v3.9
+  status: stable
+- id: 14-branching-rescue
+  path: modules/14-branching-rescue.md
+  title: Creative Branching, Experiment & Story Rescue
+  origins:
+  - v3.7
+  - v4.1
+  status: stable
+- id: 15-onboarding-certification
+  path: modules/15-onboarding-certification.md
+  title: Orchestration, Onboarding, Certification & Packaging
+  origins:
+  - v3.0
+  - v4.2
+  - v4.3
+  - v4.4
+  status: stable
 history:
   versions: 35
   rule_count: 1843
   inventory: history/rule-inventory.yaml
   lineage: history/RULE_LINEAGE.md
+authority:
+- current_explicit_decision
+- locked_canon
+- current_state
+- approved_structured_data
+- derived_artifact
+- draft
+- idea_bank
+- archive
 default_mode: STANDARD
 natural_language_first: true
+references:
+  progressive_disclosure: references/README.md
+  routing: runtime/reference-routing.md
+  detailed_source_dir: history/versions
+  reward_design: references/creative/reward-satisfaction-design.md

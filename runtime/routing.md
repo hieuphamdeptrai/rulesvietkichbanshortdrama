@@ -19,3 +19,11 @@ Use minimum sufficient modules; do not load the whole repo by default.
 | Status/planning | `13-lint-planning-observability`, `11-memory-context` | `12-schema-compiler` |
 | Import/resume | `15-onboarding-certification`, `11-memory-context`, `10-continuity-canon` | `13-lint-planning-observability` |
 | Certification | `15-onboarding-certification`, `13-lint-planning-observability` | relevant gate owners |
+
+## Detailed rule escalation
+
+After selecting compact modules, consult `runtime/reference-routing.md`.
+
+- Canon-changing, high-impact, lock/audit/rescue/certification tasks **must** load the matching detailed `history/versions/*.md` sources mapped in `runtime/reference-routing.md`.
+- Low-risk brainstorming/prototype tasks may stay on compact modules.
+- Never load all 1,843 rules blindly; load the smallest complete detailed subsystem.

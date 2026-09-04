@@ -1,4 +1,4 @@
-release: 1.0.0
+release: 1.0.1
 name: SDCS Story OS
 design_history: v1.0-v4.4
 status: release-ready
@@ -10,5 +10,12 @@ license: UNSELECTED
 selftest: PASS
 known_scope_limitations:
 - Model-specific image/video prompt compilation is reserved for SDCS Production OS.
-- Voice-model orchestration and editing automation are outside Story Core 1.0.0.
-certification: certification/reports/SDCS-1.0.0-system-certification.md
+- Voice-model orchestration and editing automation are outside Story Core 1.0.1.
+certification: certification/reports/SDCS-1.0.1-system-certification.md
+hardening:
+- progressive_disclosure_history_reference_routing
+- exact_no_lost_rule_baseline
+- expanded_behavior_contract_tests
+- optional_reward_satisfaction_reference
+- optional_commercial_checkpoint_preset
+- production_os_scene_boundary_roadmap

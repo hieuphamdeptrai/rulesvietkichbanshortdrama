@@ -15,3 +15,7 @@
 | Lint / scheduler / health | `13-lint-planning-observability` |
 | Branching / experiments / rescue | `14-branching-rescue` |
 | Onboarding / orchestration / certification / packaging | `15-onboarding-certification` |
+
+## Runtime fidelity
+- Progressive disclosure: compact modules for routine work; exact detailed rule packs for high-impact/lock/audit/rescue/certification work.
+- Exact 1.0.1 no-lost-rule baseline: 35 versions / 1,843 rules.

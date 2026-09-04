@@ -3,7 +3,7 @@ name: rulesvietkichbanshortdrama
 description: Stateful Vietnamese Short Drama Curiosity System (SDCS) Story OS for developing addictive short-drama series from raw idea through premise, characters, mystery, episode architecture, screenplay, validation, branching, rescue, continuity, handoff, and release readiness. Use for ongoing short-drama projects where curiosity, canon, payoff, retention, and cross-episode consistency must be preserved.
 compatibility: Agent Skills-compatible clients; usable manually by any capable AI that can read Markdown/YAML/JSON files.
 metadata:
-  release: "1.0.0"
+  release: "1.0.1"
   language: "vi"
   framework: "SDCS Story OS"
 ---
@@ -29,6 +29,12 @@ metadata:
 5. Canon pipeline: Premise → Core Truth → Character/Relationship → Blueprint → Information Architecture → Episode Grid → Episode Lock → Screenplay → Audit → Production Prep.
 6. Sau thay đổi lớn: lint, impact/continuity, update source, invalidate derived artifacts, refresh bootstrap.
 7. Quyết định lớn chưa chắc → Branch; project đang hỏng → Rescue; output chuẩn bị lock → Certification.
+
+## Progressive Disclosure
+- Luôn đọc `SYSTEM.md`, sau đó dùng `runtime/routing.md` để chọn compact modules.
+- Khi task có ảnh hưởng canon lớn, chuẩn bị lock, audit, rescue, certification, major twist/payoff/finale: đọc thêm các detailed frozen source được map trong `runtime/reference-routing.md`.
+- Không load toàn bộ 1.843 rule mặc định; chỉ load **smallest complete detailed subsystem**.
+- `history/versions/` dùng để audit lineage/no-lost-rule hoặc khi cần truy nguyên rule.
 
 ## Rules
 - Mỗi scene/episode phải tạo lý do cụ thể khiến khán giả cần biết tiếp.
