@@ -1,0 +1,13 @@
+# PROJECT BOOTSTRAP
+- Project ID / Title:
+- Project Version / SDCS Release:
+- Current State / Mode / Branch:
+- Creative Spark / Audience Promise:
+- Locked Canon Summary:
+- Main Characters / Relationship State:
+- Current Arc / Episode:
+- Open Questions / Setups / Payoffs:
+- Hard Constraints / Style Summary:
+- Critical/Major Issues:
+- Current Blockers:
+- Next Best Action:

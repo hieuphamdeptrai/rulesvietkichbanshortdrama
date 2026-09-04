@@ -1,0 +1,11 @@
+# RELATIONSHIP CARD
+- ID:
+- A / B:
+- A wants from B:
+- B wants from A:
+- Trust A→B / B→A:
+- Power:
+- Dependency:
+- Secret / Debt / Leverage:
+- Break Point:
+- Planned Payoff:

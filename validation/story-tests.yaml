@@ -1,0 +1,7 @@
+version: 1.0.0
+tests:
+- {id: TST-CORE-001, type: invariant, assertion: locked_canon_cannot_change_silently, severity: BLOCKER}
+- {id: TST-CORE-002, type: invariant, assertion: writer_truth_must_not_leak_into_blind_audience_context, severity: BLOCKER}
+- {id: TST-CORE-003, type: narrative, assertion: every_canon_episode_has_meaningful_progress, severity: REQUIRED}
+- {id: TST-CORE-004, type: narrative, assertion: major_twist_has_footprints_and_consequence, severity: REQUIRED}
+- {id: TST-CORE-005, type: payoff, assertion: core_mystery_paid_before_or_in_finale, severity: BLOCKER}

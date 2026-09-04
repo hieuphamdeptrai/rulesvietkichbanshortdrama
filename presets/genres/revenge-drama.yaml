@@ -1,0 +1,14 @@
+id: revenge-drama
+primary_engines:
+- agency
+- escalation
+- payoff
+weights:
+  character: 3
+  escalation: 3
+  payoff: 3
+  mystery: 1
+risks:
+- passive_revenge
+- repetition
+- payoff_without_cost

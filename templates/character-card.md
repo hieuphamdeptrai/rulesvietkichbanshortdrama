@@ -1,0 +1,16 @@
+# CHARACTER CARD
+- ID:
+- Name:
+- Role:
+- Public Face:
+- Want:
+- Need:
+- Wound:
+- False Belief:
+- Fear:
+- Loyalty:
+- Secret refs:
+- Strategy:
+- Moral Boundary:
+- Breaking Point:
+- Arc Start / End:

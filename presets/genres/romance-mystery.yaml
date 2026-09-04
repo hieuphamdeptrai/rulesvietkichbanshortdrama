@@ -1,0 +1,14 @@
+id: romance-mystery
+primary_engines:
+- relationship
+- mystery
+- curiosity
+weights:
+  relationship: 3
+  character: 3
+  mystery: 3
+  causality: 2
+risks:
+- miscommunication_only
+- static_relationship
+- mystery_without_emotion

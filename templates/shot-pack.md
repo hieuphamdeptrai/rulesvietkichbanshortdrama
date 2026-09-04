@@ -1,0 +1,12 @@
+# SHOT PACK
+- Shot ID:
+- Scene Anchor:
+- Shot Type / Camera Intent:
+- Character refs:
+- Location ref:
+- Costume / Prop refs:
+- Start Frame State:
+- End Frame State:
+- Screen Direction:
+- Visual Purpose:
+- Continuity Constraints:

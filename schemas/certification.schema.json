@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sdcs.local/schemas/certification.schema.json",
+  "title": "Certification",
+  "type": "object",
+  "required": ["target","version","result"],
+  "properties": {"target":{"type":"string"},"version":{"type":"string"},"result":{"enum":["PASS","PASS_WITH_RISK","CONDITIONAL","FAIL"]},"passed_gates":{"type":"array","items":{"type":"string"}},"failed_gates":{"type":"array","items":{"type":"string"}},"exceptions":{"type":"array","items":{"type":"string"}},"open_risks":{"type":"array","items":{"type":"string"}},"evidence":{"type":"object"}},
+  "additionalProperties": true
+}

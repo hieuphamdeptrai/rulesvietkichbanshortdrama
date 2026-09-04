@@ -1,0 +1,12 @@
+profile: standard-short-drama
+state_aware: true
+incremental_first: true
+critical_blocks_lock: true
+heuristics_default_to_warning: true
+creative_canon_autofix: false
+thresholds:
+  rehook_seconds: [15, 25]
+  meaningful_change_seconds: [8, 15]
+  mystery_stagnation_episodes: 4
+  cliff_repetition_window: 5
+  max_active_core_mysteries: 1

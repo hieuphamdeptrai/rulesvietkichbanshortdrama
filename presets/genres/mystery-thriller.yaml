@@ -1,0 +1,14 @@
+id: mystery-thriller
+primary_engines:
+- mystery
+- causality
+- curiosity
+weights:
+  mystery: 3
+  causality: 3
+  character: 2
+  relationship: 1
+risks:
+- theory_monopoly
+- unfair_twist
+- stale_question

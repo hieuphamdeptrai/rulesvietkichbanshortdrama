@@ -1,0 +1,38 @@
+version: 1.0.0
+rule_count: 35
+rules:
+- {id: DAT-001, name: Missing required field, default_severity: MAJOR, autofix: never_for_creative_canon}
+- {id: DUPLICATE_ID, name: Duplicate stable ID, default_severity: CRITICAL, autofix: never_for_creative_canon}
+- {id: BROKEN_REFERENCE, name: Reference target does not exist, default_severity: MAJOR, autofix: never_for_creative_canon}
+- {id: SOURCE_OF_TRUTH_CONFLICT, name: Authoritative sources conflict, default_severity: CRITICAL, autofix: never_for_creative_canon}
+- {id: NEGATIVE_CANON_VIOLATION, name: Retired/forbidden canon leaked active, default_severity: CRITICAL, autofix: never_for_creative_canon}
+- {id: CAUSAL_GAP, name: Major effect lacks plausible cause, default_severity: MAJOR, autofix: never_for_creative_canon}
+- {id: CONSEQUENCE_GAP, name: Major event has no downstream consequence, default_severity: MODERATE, autofix: never_for_creative_canon}
+- {id: KNOWLEDGE_TELEPORT, name: Character knows fact without source, default_severity: MAJOR, autofix: never_for_creative_canon}
+- {id: TRUTH_LEAK, name: Writer-only truth leaks to audience/character, default_severity: CRITICAL, autofix: never_for_creative_canon}
+- {id: MOTIVATION_DISCONTINUITY, name: Character action lacks established motive, default_severity: MAJOR, autofix: never_for_creative_canon}
+- {id: PASSIVE_PROTAGONIST_RUN, name: Protagonist agency remains low across sequence, default_severity: MODERATE, autofix: never_for_creative_canon}
+- {id: UNSUPPORTED_TRUST_SHIFT, name: Relationship state jumps without event, default_severity: MAJOR, autofix: never_for_creative_canon}
+- {id: MYSTERY_STAGNATION, name: Priority mystery has no meaningful progress, default_severity: MODERATE, autofix: never_for_creative_canon}
+- {id: CLUE_WITHOUT_FUNCTION, name: Clue has no mystery/payoff/function, default_severity: MODERATE, autofix: never_for_creative_canon}
+- {id: UNPAID_SETUP, name: Important setup lacks payoff, default_severity: MAJOR, autofix: never_for_creative_canon}
+- {id: UNPLANTED_PAYOFF, name: Major payoff/twist lacks setup, default_severity: CRITICAL, autofix: never_for_creative_canon}
+- {id: TWIST_UNDERPLANTED, name: Major twist lacks fair footprints, default_severity: MAJOR, autofix: never_for_creative_canon}
+- {id: PROMISE_OVERDUE, name: Audience promise exceeds planned window, default_severity: MODERATE, autofix: never_for_creative_canon}
+- {id: EPISODE_NO_STATE_CHANGE, name: Canon episode makes no meaningful change, default_severity: MAJOR, autofix: never_for_creative_canon}
+- {id: EPISODE_NO_REWARD, name: Episode only delays without reward, default_severity: MODERATE, autofix: never_for_creative_canon}
+- {id: FAKE_CLIFF, name: Cliff resolves trivially or has no consequence, default_severity: MAJOR, autofix: never_for_creative_canon}
+- {id: CLIFF_REPETITION, name: Cliff family repeats excessively, default_severity: MINOR, autofix: never_for_creative_canon}
+- {id: PATTERN_REPETITION, name: Narrative mechanism saturates rolling window, default_severity: MINOR, autofix: never_for_creative_canon}
+- {id: FILLER_CANDIDATE, name: Removal produces no meaningful story loss, default_severity: MODERATE, autofix: never_for_creative_canon}
+- {id: GENRE_DRIFT, name: Primary audience promise disappears unintentionally, default_severity: MODERATE, autofix: never_for_creative_canon}
+- {id: FORMAT_OVERLOAD, name: Information/beat load exceeds format profile, default_severity: MODERATE, autofix: never_for_creative_canon}
+- {id: ARTIFACT_STALE, name: Derived artifact source version changed, default_severity: MAJOR, autofix: never_for_creative_canon}
+- {id: BRANCH_LEAK, name: Facts from another branch contaminate active branch, default_severity: CRITICAL, autofix: never_for_creative_canon}
+- {id: DEPENDENCY_CYCLE, name: Blocking dependency cycle exists, default_severity: MAJOR, autofix: never_for_creative_canon}
+- {id: PREMATURE_LOCK_RISK, name: High-impact upstream remains unstable at lock, default_severity: MAJOR, autofix: never_for_creative_canon}
+- {id: DECISION_OVERDUE, name: High-impact decision now blocks downstream, default_severity: MODERATE, autofix: never_for_creative_canon}
+- {id: REPAIR_LOOP, name: Repeated repair does not solve root cause, default_severity: MODERATE, autofix: never_for_creative_canon}
+- {id: SIGNATURE_DECAY, name: Creative signature disappears unintentionally, default_severity: MINOR, autofix: never_for_creative_canon}
+- {id: USER_CONSTRAINT_IGNORED, name: Explicit user constraint was overridden, default_severity: CRITICAL, autofix: never_for_creative_canon}
+- {id: UNSOURCED_CANON, name: Inference/proposal treated as locked canon, default_severity: MAJOR, autofix: never_for_creative_canon}

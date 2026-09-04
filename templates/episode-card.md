@@ -1,0 +1,15 @@
+# EPISODE CARD
+- Episode ID:
+- Arc:
+- Duration:
+- Previous Cliff:
+- Primary Question:
+- Character Objective:
+- Obstacle / Conflict:
+- Clue / Progress:
+- Mini Payoff / Reward:
+- Reversal / Reorientation:
+- Meaningful State Change:
+- Cliff / Forward Pull:
+- Next Handoff:
+- Production Risk:

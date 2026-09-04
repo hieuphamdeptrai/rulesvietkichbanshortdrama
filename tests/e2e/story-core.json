@@ -1,0 +1,1 @@
+{"id":"E2E-001","pipeline":["INPUT","IDEA","PREMISE","CONCEPT_LOCK","CORE_TRUTH","STORY_BLUEPRINT","EPISODE_GRID","EPISODE_LOCK","SCREENPLAY","AUDIT","PRODUCTION_LOCK"],"requirements":["project_state_persists","locked_canon_not_silently_overwritten","derived_artifacts_version_bound","critical_lint_blocks_lock"]}

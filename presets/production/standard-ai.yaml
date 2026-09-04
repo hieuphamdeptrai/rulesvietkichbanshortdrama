@@ -1,0 +1,6 @@
+id: standard-ai
+cast_per_scene_recommended: 4
+locations: controlled
+complex_interactions: minimize
+continuity: strict_for_story_significant_elements
+master_reference_for_high_risk: true

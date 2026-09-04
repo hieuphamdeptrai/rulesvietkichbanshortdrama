@@ -1,0 +1,12 @@
+# RESCUE CASE
+- Case ID:
+- Failure Level:
+- Symptoms / Evidence:
+- Root Cause / Confidence:
+- MUST PRESERVE:
+- PREFER PRESERVE:
+- FREE TO CHANGE:
+- Recommended Rescue:
+- Ripple / Invalidations:
+- Regression Results:
+- Status:

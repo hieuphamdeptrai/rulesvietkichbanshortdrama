@@ -1,0 +1,12 @@
+id: 90s
+target_seconds: 90
+recommended_range:
+- 75
+- 105
+episode_patterns:
+- 2
+- 4
+rehook_seconds:
+- 15
+- 25
+note: Allows slightly more processing/emotional space; do not pad dialogue.

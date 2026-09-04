@@ -1,0 +1,33 @@
+name: SDCS Story OS
+slug: rulesvietkichbanshortdrama
+release: 1.0.0
+design_history: v1.0-v4.4
+core_status: feature-frozen
+schema_version: 1.0.0
+entrypoints:
+  skill: SKILL.md
+  system: SYSTEM.md
+  human: README.md
+modules:
+- {id: 01-curiosity-core, path: modules/01-curiosity-core.md, status: stable}
+- {id: 02-episode-pacing, path: modules/02-episode-pacing.md, status: stable}
+- {id: 03-twist-hook-cliff, path: modules/03-twist-hook-cliff.md, status: stable}
+- {id: 04-character-relationship, path: modules/04-character-relationship.md, status: stable}
+- {id: 05-mystery-clue, path: modules/05-mystery-clue.md, status: stable}
+- {id: 06-escalation-payoff, path: modules/06-escalation-payoff.md, status: stable}
+- {id: 07-premise-blueprint, path: modules/07-premise-blueprint.md, status: stable}
+- {id: 08-quality-execution, path: modules/08-quality-execution.md, status: stable}
+- {id: 09-genre-format-style, path: modules/09-genre-format-style.md, status: stable}
+- {id: 10-continuity-canon, path: modules/10-continuity-canon.md, status: stable}
+- {id: 11-memory-context, path: modules/11-memory-context.md, status: stable}
+- {id: 12-schema-compiler, path: modules/12-schema-compiler.md, status: stable}
+- {id: 13-lint-planning-observability, path: modules/13-lint-planning-observability.md, status: stable}
+- {id: 14-branching-rescue, path: modules/14-branching-rescue.md, status: stable}
+- {id: 15-onboarding-certification, path: modules/15-onboarding-certification.md, status: stable}
+history:
+  versions: 35
+  rule_count: 1843
+  inventory: history/rule-inventory.yaml
+  lineage: history/RULE_LINEAGE.md
+default_mode: STANDARD
+natural_language_first: true

@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.env.*
+build/
+dist/
+*.zip
+projects/*/media/
+projects/*/renders/
+projects/*/cache/
+!projects/.gitkeep

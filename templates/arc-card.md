@@ -1,0 +1,13 @@
+# ARC CARD
+- Arc ID / Episodes:
+- Arc Question:
+- Entry State:
+- Protagonist Objective:
+- Main Obstacle:
+- Audience Theory:
+- Clues:
+- Escalation:
+- Major Reveal / Reversal:
+- Answer:
+- Exit State:
+- Next Question:

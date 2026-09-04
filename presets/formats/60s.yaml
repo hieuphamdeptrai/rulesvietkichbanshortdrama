@@ -1,0 +1,12 @@
+id: 60s
+target_seconds: 60
+recommended_range:
+- 50
+- 75
+episode_patterns:
+- 2
+- 4
+rehook_seconds:
+- 15
+- 25
+note: One primary question; compact dialogue; meaningful state change.

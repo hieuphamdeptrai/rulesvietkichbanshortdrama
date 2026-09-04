@@ -1,0 +1,9 @@
+project_id: PRJ-DEMO-001
+title: The Wedding Room
+project_version: 0.1.0
+sdcs_release: 1.0.0
+schema_version: 1.0.0
+current_state: PREMISE
+current_mode: DESIGN
+current_branch: MAIN
+status: PROVISIONAL

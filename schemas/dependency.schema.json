@@ -1,0 +1,3 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema","$id":"https://sdcs.local/schemas/dependency.schema.json","title":"Dependency","type":"object","required":["id","source","target","type","severity","status"],"properties":{"id":{"type":"string"},"source":{"type":"string"},"target":{"type":"string"},"type":{"type":"string"},"severity":{"enum":["BLOCKING","HIGH","MEDIUM","LOW"]},"condition":{"type":"string"},"status":{"type":"string"},"branch":{"type":"string"}},"additionalProperties":true
+}

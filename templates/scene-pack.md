@@ -1,0 +1,12 @@
+# SCENE PACK
+- Scene ID:
+- Narrative Purpose:
+- Location / Time:
+- Characters / Current States:
+- Costume refs:
+- Props / Conditions:
+- Start State:
+- Conflict / Information Delta:
+- End State:
+- Visual Anchors / Continuity:
+- Production Risk:

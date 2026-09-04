@@ -1,0 +1,3 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema","$id":"https://sdcs.local/schemas/context-pack.schema.json","title":"Context Pack","type":"object","required":["id","task","project_version","role","status"],"properties":{"id":{"type":"string"},"task":{"type":"string"},"project_version":{"type":"string"},"role":{"type":"string"},"entity_refs":{"type":"array","items":{"type":"string"}},"exclusions":{"type":"array","items":{"type":"string"}},"canon_refs":{"type":"array","items":{"type":"string"}},"current_state_ref":{"type":"string"},"constraints":{"type":"array","items":{"type":"string"}},"instruction":{"type":"string"},"status":{"type":"string"}},"additionalProperties":true
+}
