@@ -1,0 +1,23 @@
+id: monetized-series
+status: optional
+default: false
+purpose: Plan commercial access/checkpoint moments without weakening audience trust.
+principles:
+- A checkpoint must follow earned emotional or curiosity investment, not arbitrary interruption.
+- End on a specific high-value unresolved question or imminent consequential choice.
+- The next accessible segment must materially pay or advance the promise; fake resolution is prohibited.
+- Do not checkpoint the same unresolved question repeatedly.
+- Platform-specific episode numbers and monetization rules are configuration, not universal story laws.
+- Commercial optimization never overrides Story Integrity, Character Logic, or audience trust.
+checkpoint_functions:
+- major_reveal_imminent
+- irreversible_choice
+- relationship_breakthrough
+- danger_consequence
+- arc_reframe
+avoid:
+- flat_cut
+- fake_cliff
+- repeated_same_question
+- withholding_without_progress
+- platform_number_hardcode

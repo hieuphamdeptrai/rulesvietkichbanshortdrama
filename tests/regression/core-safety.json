@@ -1,0 +1,11 @@
+{
+  "release": "1.0.1",
+  "contracts": [
+    {"id":"REG-001","name":"no_lost_rule_exact_baseline","expect":{"versions":35,"rules":1843,"modules":15,"schemas":15,"reference_routes":15}},
+    {"id":"REG-002","name":"locked_canon_no_silent_overwrite","system_phrase":"Locked Canon không bị silent overwrite"},
+    {"id":"REG-003","name":"audience_truth_firewall","system_phrase":"Audience Simulator tuyệt đối không nhận unreleased Writer Truth"},
+    {"id":"REG-004","name":"derived_artifact_cannot_override_source","system_phrase":"Derived artifact không override source"},
+    {"id":"REG-005","name":"progressive_disclosure_present","system_phrase":"runtime/reference-routing.md"},
+    {"id":"REG-006","name":"core_history_frozen","expect_design_history":"v1.0-v4.4"}
+  ]
+}

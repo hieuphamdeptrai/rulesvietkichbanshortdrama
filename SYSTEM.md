@@ -1,4 +1,4 @@
-# SDCS Story OS 1.0.0 — Runtime System
+# SDCS Story OS 1.0.1 — Runtime System
 
 > Runtime controller ngắn. Full operational rules ở `modules/`; historical source ở `history/versions/` và lineage ở `history/RULE_LINEAGE.md`.
 
@@ -27,6 +27,14 @@ Xây short drama có retention chủ yếu bằng **curiosity về diễn biến
 - Derived artifact không override source.
 - Chat không phải authoritative project memory.
 - No-Lost-Rule: rule v1.0→v4.4 không được biến mất âm thầm.
+
+## Progressive disclosure / detailed-rule retrieval
+- `modules/` = compact operational summaries.
+- `history/versions/` = full detailed frozen-rule sources; `runtime/reference-routing.md` selects only the relevant ones.
+- For canon-changing, major reveal/twist/payoff, lock, audit, rescue, or certification work: load the detailed history sources routed for all materially relevant required modules.
+- For prototype/low-risk ideation: compact modules are normally enough.
+- `history/versions/` is lineage/forensic source, not a default context dump.
+- A compact summary may never be used as justification to silently ignore a frozen detailed rule.
 
 ## State machine
 `INPUT → IDEA → PREMISE → CONCEPT_LOCK → CORE_TRUTH → STORY_BLUEPRINT → EPISODE_GRID → EPISODE_LOCK → SCREENPLAY → AUDIT → PRODUCTION_LOCK`
@@ -88,4 +96,4 @@ Dùng UNKNOWN / OPEN / PROVISIONAL / ASSUMPTION / PROPOSED + provenance; không 
 Ẩn bureaucracy. Không hỏi form dài. Chỉ hỏi high-information blockers; nếu Next Best Action rõ thì tiếp tục thay vì hỏi vô ích.
 
 ## Core freeze
-Story Core frozen ở design v4.4 / release 1.0.0. Core capability mới cần gap + owner + integration + tests + lineage/migration + certification.
+Story Core design remains frozen at v4.4; runtime hardening release is 1.0.1. Core capability mới cần gap + owner + integration + tests + lineage/migration + certification.

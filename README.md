@@ -1,4 +1,4 @@
-# Rules Viết Kịch Bản Short Drama — SDCS Story OS 1.0.0
+# Rules Viết Kịch Bản Short Drama — SDCS Story OS 1.0.1
 
 **SDCS — Short Drama Curiosity System** là Story Operating System cho short drama nhiều tập, tối ưu cho mục tiêu: **khán giả xem tiếp vì bắt buộc phải biết diễn biến tiếp theo**.
 
@@ -21,6 +21,9 @@ Tạo project SDCS từ ý tưởng: "..."
 
 Nếu resume project: đọc `project.yaml`, `BOOTSTRAP.md`, `PROJECT_STATE.md`, rồi retrieve module theo `runtime/routing.md`.
 
+### Runtime fidelity
+SDCS 1.0.1 adds a progressive-disclosure layer: compact modules stay fast, while canonical/high-impact tasks load the matching detailed frozen history sources. This keeps all 1,843 rules callable without duplicating or dumping them into every prompt.
+
 ## Core capabilities
 Premise/high concept; characters/relationships/secrets; mystery/clue/twist/payoff; 6–50+ episode architecture; pacing/retention; screenplay execution; canon/continuity; memory/context; lint/red-team/simulation/scoring; branching; scheduler; health dashboard; style; rescue; onboarding/import/resume; certification.
 
@@ -32,6 +35,7 @@ Premise/high concept; characters/relationships/secrets; mystery/clue/twist/payof
 - `SYSTEM.md` — compact AI runtime.
 - `runtime/` — orchestration/state/authority/context/gates.
 - `modules/` — 15 consolidated runtime modules.
+- `references/` — progressive-disclosure policy + optional creative references; detailed frozen rules remain in `history/versions/`.
 - `history/versions/` — 35 historical design versions.
 - `history/rule-inventory.yaml`, `history/RULE_LINEAGE.md` — no-lost-rule proof.
 - `schemas/` — core JSON Schemas.
@@ -54,7 +58,7 @@ Current explicit decision → Locked Canon → Current State → Approved struct
 35 version files v1.0→v4.4 được giữ. Mỗi frozen rule có ID và runtime owner trong rule inventory/lineage để consolidate mà không mất logic.
 
 ## Release
-- Story OS: **1.0.0**
+- Story OS: **1.0.1**
 - Frozen design history: **v1.0→v4.4**
 - Core: **feature-frozen**
 
@@ -64,6 +68,7 @@ Story Core chuẩn bị tới production-ready story/scene/shot contract. Model-
 ## Self-test
 ```bash
 python tools/selftest.py
+python tools/contract_tests.py
 python tools/validate_project.py examples/minimal-project
 ```
 
